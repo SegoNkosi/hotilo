@@ -37,6 +37,10 @@ import listIcon from "./listIcon.svg";
 import uploadArea from "./uploadArea.svg";
 import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
+import profile_bonko from './profile_bonko.png';
+import profile_hloni from './profile_hloni.png';
+import profile_rasheeda from './profile_rasheeda.png'
+
 
 
 export const assets = {
@@ -74,6 +78,7 @@ export const assets = {
     totalRevenueIcon,
 }
 
+
 export const cities = [
     "Limpopo",
     "KwaZuluNatal",
@@ -95,9 +100,9 @@ export const exclusiveOffers = [
 
 // Testimonials Dummy Data
 export const testimonials = [
-    { id: 1, name: "Emma Rodriguez", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "I've used many booking platforms before, but none compare to the personalized experience and attention to detail that QuickStay provides." },
-    { id: 2, name: "Liam Johnson", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "QuickStay exceeded my expectations. The booking process was seamless, and the hotels were absolutely top-notch. Highly recommended!" },
-    { id: 3, name: "Sophia Lee", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Amazing service! I always find the best luxury accommodations through QuickStay. Their recommendations never disappoint!" }
+    { id: 1, name: "Bonko Khoza", address: "Limpopo, South Africa", image: profile_bonko, rating: 5, review: "I've used many booking platforms before, but none compare to the personalised experience and attention to detail that Hotilo provides." },
+    { id: 2, name: "Lerato Mokoena", address: "Mpumalanga, South Africa", image: profile_hloni, rating: 4, review: "Hotilo exceeded my expectations. The booking process was seamless, and the hotels were absolutely top-notch. Highly recommended!" },
+    { id: 3, name: "Rashaeda Naidoo", address: "KwaZuluNatal, South Africa", image: profile_rasheeda, rating: 5, review: "Amazing service! I always find the best luxury accommodations through Hotilo. Their recommendations never disappoint!" }
 ];
 
 // Facility Icon

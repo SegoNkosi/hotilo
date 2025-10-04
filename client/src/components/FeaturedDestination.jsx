@@ -9,7 +9,7 @@ const FeaturedDestination = () => {
   return (
     <div className='flex flex-col items-center px-6 md:px-16 lg:px-24 bg-slate-50 py-20' >
 
-<Title title='Featured Destination' subTitle='Discover our handpicked selection of exceptional properties around the world, offering unparalleled luxury and unforgettable experience.'/>
+<Title title='Featured Destinations' subTitle='Discover our collection of unique stays across South Africa, showcasing hidden gems and local hospitality that offer authentic experiences and memorable adventures beyond the ordinary tourist trail.'/>
 
         <div className='flex flex-wrap items-center justify-center gap-6 mt-20' >
             {roomsDummyData.slice(0,4).map((room, index)=>(
