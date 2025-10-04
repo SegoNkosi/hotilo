@@ -12,6 +12,7 @@ const App = () => {
       {!isOwnerPath && <Navbar />}
       <div className='min-h-[70vh]'>
         <Routes>
+          <Route path='/' element={<Home />} />
           <Route path='/rooms' element={<Home/>} />
         </Routes>
 

@@ -75,10 +75,15 @@ export const assets = {
 }
 
 export const cities = [
-    "Dubai",
-    "Singapore",
-    "New York",
-    "London",
+    "Limpopo",
+    "KwaZuluNatal",
+    "North West",
+    "Northern Cape",
+    "Western Cape",
+    "Gauteng",
+    "Mpumalanga",
+    "Eastern Cape",
+    "Free State",
 ];
 
 // Exclusive Offers Dummy Data
